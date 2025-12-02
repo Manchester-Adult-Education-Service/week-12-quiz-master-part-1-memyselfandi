@@ -48,10 +48,13 @@ import json # This will be used in Task 6 and Extension 3
 
 player_score = 0
 max_score = 10
-
+print("                                     ")
+print("                                     ")
+print("                                     ")
 print("Welcome to the Ultimate Python Quiz!!")
+print("                                     ")
 print(f"Your current score is {player_score}.")
-
+print("                                     ")
 
 # -------------------------------------------
 # CHECKPOINT
@@ -85,15 +88,17 @@ print(f"Your current score is {player_score}.")
 # Write your code below:
 
 print("--- Testing Basic Functions ---")
+print("                                     ")
 answer1 = int(input("Question 1: What is 7 X 5?: "))
+print("                                     ")
 if answer1 == 35:
     print("Correct!")
     player_score = player_score + 1
 else:
     print("Not this time. The Answer is 35!")
-
+print("                                     ")
 print(f"Your score: {player_score}")
-
+print("                                     ")
 # -------------------------------------------
 # CHECKPOINT
 # -------------------------------------------
