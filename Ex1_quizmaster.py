@@ -46,7 +46,11 @@ import json # This will be used in Task 6 and Extension 3
 #
 # Write your code below:
 
+player_score = 0
+max_score = 10
 
+print("Welcome to the Ultimate Python Quiz!!")
+print(f"Your current score is {player_score}.")
 
 
 # -------------------------------------------
